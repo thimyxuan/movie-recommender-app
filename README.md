@@ -1,14 +1,11 @@
 # Movie Matcher
-
-Moteur de recommandation de films
-
 <p align="center">
-    <img src="img/dark.jpg" alt="Image" width="50%" height="50%">
+    <img src="img/dark.jpg" alt="Image application MovieMatcher" width="50%">
 </p>
 
 ## Présentation
 
-Découvrez une expérience cinématographique personnalisée avec Movie Matcher, notre moteur de recommandation de films intégré à Streamlit. Sélectionnez entre 1 et 5 films que vous avez appréciés, et laissez notre modèle de machine learning utiliser à la fois le filtrage collaboratif et le contenu pour vous suggérer des films similaires. 
+Découvrez une expérience cinématographique personnalisée avec Movie Matcher, notre **moteur de recommandation de films** intégré à Streamlit. Sélectionnez entre 1 et 5 films que vous avez appréciés, et laissez notre modèle de machine learning utiliser à la fois le filtrage collaboratif et le contenu pour vous suggérer des films similaires. 
 
 Explorez des recommandations adaptées à vos goûts, et obtenez des informations détaillées sur la disponibilité des films sur différentes plateformes avec abonnement.
 
@@ -22,7 +19,7 @@ Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateur
 Notre système de recommandation est hybride. Il allie le filtrage collaboratif et le filtrage par contenu.
 
 <p align="center">
-    <img src="img/schema_hybride.png" alt="Schéma" width="600px">
+    <img src="img/schema_hybride.png" alt="Schéma hybride" width="700px">
 </p>
 
 ### Comparaison des algorithmes
@@ -30,13 +27,13 @@ Notre système de recommandation est hybride. Il allie le filtrage collaboratif 
 Nous avons utilisé la librairie Surprise et l'algorithme SVD pour le filtrage collaboratif. Voici les scores obtenus avec les différents algorithmes de Surprise :
 
 <p align="center">
-    <img src="img/models_scores.png" alt="Schéma" width="100%">
+    <img src="img/models_scores.png" alt="Scores des différents algorithmes" width="100%">
 </p>
 
 ### Schéma des flux
 
 <p align="center">
-    <img src="img/schema.png" alt="Schéma" width="600px">
+    <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="600px">
 </p>
 
 ## Nos formules mathématiques
