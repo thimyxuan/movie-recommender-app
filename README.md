@@ -12,28 +12,34 @@ Explorez des recommandations adaptées à vos goûts, et obtenez des information
 Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateurs, année, et plateformes de streaming pour affiner vos choix et trouver votre prochaine pépite cinématographique.
 
 
-## Machine learning
+# Machine learning
 
-### Modèle hybride
+## Modèle hybride
 
 Notre système de recommandation est hybride. Il allie le filtrage collaboratif et le filtrage par contenu.
+
+Voici un schéma de son fonctionnement :
 
 <p align="center">
     <img src="img/schema_hybride.png" alt="Schéma hybride" width="700px">
 </p>
 
-### Comparaison des algorithmes
+## Comparaison des algorithmes
 
-Nous avons utilisé la librairie Surprise et l'algorithme SVD pour le filtrage collaboratif. Voici les scores obtenus avec les différents algorithmes de Surprise :
+Nous avons utilisé la librairie Surprise et l'algorithme SVD pour le filtrage collaboratif. 
+
+Voici les scores obtenus avec les différents algorithmes de Surprise :
 
 <p align="center">
     <img src="img/models_scores.png" alt="Scores des différents algorithmes" width="100%">
 </p>
 
-### Schéma des flux
+<br>
+
+## Schéma des flux
 
 <p align="center">
-    <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="600px">
+    <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="700px">
 </p>
 
 ## Nos formules mathématiques
@@ -63,6 +69,8 @@ Nous avons utilisé la librairie Surprise et l'algorithme SVD pour le filtrage c
     - $S_{CB_i}$ est le score de similarité content-based pour la \(i\)-ième occurrence du film,
     - $n$ est le nombre d'occurrences du film dans les prédictions du modèle content-based,
     - $\alpha$ est un paramètre de réglage.
+
+<br>
 
 
 ## Clone
