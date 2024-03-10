@@ -1,5 +1,4 @@
 # Movie Matcher
-
 ## Moteur de recommandation de films
 
 <p align="center">
@@ -23,7 +22,7 @@ Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateur
 Notre système de recommandation est hybride. Il allie le filtrage collaboratif et le filtrage par contenu.
 
 <p align="center">
-    <img src="img/schema_hybride.png" alt="Schéma" width="100%" height="100%">
+    <img src="img/schema_hybride.png" alt="Schéma" width="500px" height="100%">
 </p>
 
 Pour ce faire, nous avons utilisé la librairie Surprise et l'algorithme SVD.
@@ -39,7 +38,7 @@ Voici les scores obtenus avec les différents algorithmes de Surprise.
 ### Schéma des flux
 
 <p align="center">
-    <img src="img/schema.png" alt="Schéma" width="100%" height="100%">
+    <img src="img/schema.png" alt="Schéma" width="600px">
 </p>
 
 ## Nos formules mathématiques
@@ -74,7 +73,7 @@ Voici les scores obtenus avec les différents algorithmes de Surprise.
 
 ## Clone
 
-git clone git@github.com:thimyxuan/movie-recommender-app.git
+```$ git clone https://github.com/thimyxuan/movie-recommender-app.git```
 
 ## Déploiement local
 
