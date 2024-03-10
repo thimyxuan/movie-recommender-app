@@ -99,7 +99,7 @@ Si vous souhaitez déployer l'application en local, vous pouvez choisir parmi un
 
     - Construire le container : `docker run -it -v "$(pwd):/home/app" -p 8501:8501 movie-matcher-streamlit`
 
-    Le streamlit sera accessible a lien :
+    Le streamlit sera accessible au lien :
 
     [Streamlit](http://localhost:8501) : `http://localhost:8501`
 
