@@ -33,7 +33,7 @@ Pour ce faire, nous avons utilisé la librairie Surprise et l'algorithme SVD.
 Voici les scores obtenus avec les différents algorithmes de Surprise.
 
 <p align="center">
-    <img src="img/schema_hybride.png" alt="Schéma" width="100%" height="100%">
+    <img src="img/models_scores.png" alt="Schéma" width="100%" height="100%">
 </p>
 
 ### Schéma des flux

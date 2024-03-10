@@ -9,11 +9,11 @@ Le déploiement est fait automatiquement à partir de GitHub (Heroku : répertoi
 
 Créer l'image Docker : 
 
-    `docker build -t movie-matcher-fastapi`
+`$ docker build -t movie-matcher-fastapi`
 
 Créer le container Docker : 
 
-    `docker run -it -v "$(pwd):/home/app" -p 4000:4000 movie-matcher-fastapi`
+`$ docker run -it -v "$(pwd):/home/app" -p 4000:4000 movie-matcher-fastapi`
 
 
 ## Déploiement avec Heroku (via CLI)
