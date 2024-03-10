@@ -36,7 +36,7 @@ Voici les scores obtenus avec les différents algorithmes de Surprise :
 
 <br>
 
-## Schéma des flux
+## Schéma
 
 <p align="center">
     <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="700px">

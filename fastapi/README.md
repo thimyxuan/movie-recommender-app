@@ -16,7 +16,7 @@ Créer le container Docker :
 `$ docker run -it -v "$(pwd):/home/app" -p 4000:4000 movie-matcher-fastapi`
 
 
-## Déploiement avec Heroku (via CLI)
+## Déploiement avec Heroku
 
 Il est également possible de déployer FastAPI directement via Heroku CLI avec les commandes suivantes. 
 
