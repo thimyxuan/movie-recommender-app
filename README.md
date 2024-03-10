@@ -1,5 +1,6 @@
 # Movie Matcher
-## Moteur de recommandation de films
+
+Moteur de recommandation de films
 
 <p align="center">
     <img src="img/dark.jpg" alt="Image" width="50%" height="50%">
@@ -13,7 +14,6 @@ Explorez des recommandations adaptées à vos goûts, et obtenez des information
 
 Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateurs, année, et plateformes de streaming pour affiner vos choix et trouver votre prochaine pépite cinématographique.
 
----
 
 ## Machine learning
 
@@ -22,17 +22,15 @@ Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateur
 Notre système de recommandation est hybride. Il allie le filtrage collaboratif et le filtrage par contenu.
 
 <p align="center">
-    <img src="img/schema_hybride.png" alt="Schéma" width="500px" height="100%">
+    <img src="img/schema_hybride.png" alt="Schéma" width="600px">
 </p>
-
-Pour ce faire, nous avons utilisé la librairie Surprise et l'algorithme SVD.
 
 ### Comparaison des algorithmes
 
-Voici les scores obtenus avec les différents algorithmes de Surprise.
+Nous avons utilisé la librairie Surprise et l'algorithme SVD pour le filtrage collaboratif. Voici les scores obtenus avec les différents algorithmes de Surprise :
 
 <p align="center">
-    <img src="img/models_scores.png" alt="Schéma" width="100%" height="100%">
+    <img src="img/models_scores.png" alt="Schéma" width="100%">
 </p>
 
 ### Schéma des flux
@@ -69,7 +67,6 @@ Voici les scores obtenus avec les différents algorithmes de Surprise.
     - $n$ est le nombre d'occurrences du film dans les prédictions du modèle content-based,
     - $\alpha$ est un paramètre de réglage.
 
----
 
 ## Clone
 
@@ -105,7 +102,6 @@ Si vous souhaitez déployer l'application en local, vous pouvez choisir parmi un
 
     Readme disponible dans le dossier suivant : [/fastapi](fastapi)
 
----
 
 ## Scripts
 
