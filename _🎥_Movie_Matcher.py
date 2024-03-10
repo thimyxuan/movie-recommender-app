@@ -515,7 +515,7 @@ st.markdown("""
             Powered by <a href='https://streamlit.io/'>Streamlit</a>, <a href='https://www.justwatch.com/'>JustWatch</a>, <a href='https://www.themoviedb.org/'>TMDB</a> & <a href='https://movielens.org/'>MovieLens</a>
         </p>
         <p>
-            Voir le code source sur <a href='https://github.com/Clementbroeders/movie-matcher'>GitHub</a>. © 2024 Movie Matcher.
+            Voir le code source sur <a href='https://github.com/thimyxuan/movie-recommender-app.git'>GitHub</a>. © 2024 Movie Matcher.
         </p>
     </div>
 """, unsafe_allow_html=True)
