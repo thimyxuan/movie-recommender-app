@@ -91,21 +91,21 @@ Si vous souhaitez déployer l'application en local, vous pouvez choisir parmi un
 
     - [FastAPI](http://localhost:4000/docs) : `http://localhost:4000`
 
-2) Deployer Streamlit uniquement
+2) Déployer Streamlit uniquement
 
     Il faut lancer les 2 commandes suivantes :
 
-    - Build l'image : `docker build -t movie-matcher-streamlit .`
+    - Construire l'image : `docker build -t movie-matcher-streamlit`
 
-    - Run le container : `docker run -it -v "$(pwd):/home/app" -p 8501:8501 movie-matcher-streamlit`
+    - Construire le container : `docker run -it -v "$(pwd):/home/app" -p 8501:8501 movie-matcher-streamlit`
 
-    Le streamlit sera accessible au lien :
+    Le streamlit sera accessible a lien :
 
     [Streamlit](http://localhost:8501) : `http://localhost:8501`
 
-3) Deployer FastAPI uniquement
+3) Déployer FastAPI uniquement
 
-    Readme disponible dans le dossier suivant : [/fastapi](fastapi)
+    README disponible dans le dossier suivant : [/fastapi](fastapi)
 
 
 ## Scripts
