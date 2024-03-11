@@ -54,6 +54,10 @@ Le tableau ci-dessous résume les scores des différents algorithmes testés :
 
 *En rouge : les scores les moins bons et non adaptés à notre besoin.*
 
+*Lecture :*
+- *Une MAE de 0.60 indique un écart de 0.60 points entre la prédiction et la note réelle.*
+- *L'écart permet de mettre en évidence les éventuels cas de sur-apprentissage (overfitting).*
+
 ## Nos formules mathématiques
 
 Pour une question de ressources et de temps, nous devions réduire la taille de notre base de données de films. Pour ce faire, nous avons utilisé la formule du score IMDB pour sélectionner les films à retenir.
