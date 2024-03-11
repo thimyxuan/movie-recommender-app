@@ -1,9 +1,5 @@
-## Déploiement FastAPI
 
-FastAPI est dépoyé sur un serveur Render et Heroku (backup). 
-
-Le déploiement est fait automatiquement à partir de GitHub (Heroku : répertoire défini via le fichier `heroku.yml`)
-
+# Déploiement FastAPI
 
 ## Déploiement en local
 
