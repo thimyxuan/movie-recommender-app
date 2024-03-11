@@ -52,10 +52,13 @@ Le tableau ci-dessous résume les scores des différents algorithmes testés :
     <img src="img/models_scores.png" alt="Scores des différents algorithmes" width="100%">
 </p>
 
-<br>
-
+*En rouge : les scores les moins bons et non adaptés à notre besoin.*
 
 ## Nos formules mathématiques
+
+Pour une question de ressources et de temps, nous devions réduire la taille de notre base de données de films. Pour ce faire, nous avons utilisé la formule du score IMDB pour sélectionner les films à retenir.
+
+Pour obtenir la recommandation finale, nous appliquons un calcul sur les résultats des deux approches de filtrage. Le calcul du score final est détaillé ci-dessous.
 
 1) Formule du score IMDB (ou weighted IMDB ratings) :
 
@@ -85,6 +88,7 @@ Le tableau ci-dessous résume les scores des différents algorithmes testés :
 
 <br>
 
+---
 
 ## Clone
 
