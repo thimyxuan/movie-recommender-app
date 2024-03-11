@@ -52,9 +52,8 @@ Le tableau ci-dessous résume les scores des différents algorithmes testés :
     <img src="img/models_scores.png" alt="Scores des différents algorithmes" width="100%">
 </p>
 
-*En rouge : les scores les moins bons et non adaptés à notre besoin.*
-
 *Lecture :*
+- *En rouge : les scores les moins bons et non adaptés à notre besoin.*
 - *Une MAE de 0.60 indique un écart de 0.60 points entre la prédiction et la note réelle.*
 - *L'écart permet de mettre en évidence les éventuels cas de sur-apprentissage (overfitting).*
 
