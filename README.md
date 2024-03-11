@@ -14,21 +14,39 @@ Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateur
 
 # Machine learning
 
+## Schéma général
+
+Notre moteur de recommandation de films s'appuie sur deux approches : le filtrage collaboratif et le filtrage par contenu. Autrement dit, les recommandations sont effectuées à partir du calcul de similarité entre les films et entre les profils utilisateurs.
+
+<p align="center">
+    <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="700px">
+</p>
+
+## Données
+
+Nos données proviennent de deux sources principales : 
+1) L'API TMDB : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc.
+2) La base de données MovieLens.org : pour les notes des utilisateurs.
+
 ## Modèle hybride
 
-Notre système de recommandation est hybride. Il allie le filtrage collaboratif et le filtrage par contenu.
-
-Voici un schéma de son fonctionnement :
+Voici un schéma du fonctionnement de notre moteur de recommandation hybride :
 
 <p align="center">
     <img src="img/schema_hybride.png" alt="Schéma hybride" width="700px">
 </p>
 
-## Comparaison des algorithmes
+## Algorithmes et outils
 
-Nous avons utilisé la librairie Surprise et l'algorithme SVD pour le filtrage collaboratif. 
+Pour réaliser le filtrage par contenu, nous avons utilisé les outils de la librairie Scikit-Learn : matrice TF-idf et calcul de similarité cosinus.
 
-Voici les scores obtenus avec les différents algorithmes de Surprise :
+Pour réaliser le filtrage collaboratif, nous avons utilisé la librairie Surprise et l'algorithme SVD.
+
+## Comparatifs des algorithmes 
+
+Nous avons testé les différents algorithmes de la librairie Surprise et avons retenu celui ayant les meilleures performances en termes de précision et de temps de calcul.
+
+Le tableau ci-dessous résume les scores des différents algorithmes testés :
 
 <p align="center">
     <img src="img/models_scores.png" alt="Scores des différents algorithmes" width="100%">
@@ -36,11 +54,6 @@ Voici les scores obtenus avec les différents algorithmes de Surprise :
 
 <br>
 
-## Schéma
-
-<p align="center">
-    <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="700px">
-</p>
 
 ## Nos formules mathématiques
 
