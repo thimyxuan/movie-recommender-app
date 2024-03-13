@@ -109,8 +109,6 @@ Voici un schéma de l'architecture de notre application :
     <img src="img/schema_architecture.png" alt="Schéma architecture" width="700px">
 </p>
 
-<p align="center"><i>Schéma réalisé par Clément B.</i></p>
-
 <br>
 
 ---
@@ -129,9 +127,9 @@ Si vous souhaitez déployer l'application en local, vous pouvez choisir parmi un
 
     Les sites seront accessibles aux liens :
 
-    - [Streamlit](http://localhost:8501) : `http://localhost:8501`
+    - Streamlit : `http://localhost:8501`
 
-    - [FastAPI](http://localhost:4000/docs) : `http://localhost:4000`
+    - FastAPI : `http://localhost:4000`
 
 2) Déployer Streamlit uniquement
 
@@ -143,7 +141,7 @@ Si vous souhaitez déployer l'application en local, vous pouvez choisir parmi un
 
     Le streamlit sera accessible au lien :
 
-    [Streamlit](http://localhost:8501) : `http://localhost:8501`
+    Streamlit : `http://localhost:8501`
 
 3) Déployer FastAPI uniquement
 
