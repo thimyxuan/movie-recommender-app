@@ -46,6 +46,8 @@ Pour réaliser le filtrage collaboratif, nous avons utilisé la librairie Surpri
 
 Nous avons testé les différents algorithmes de la librairie Surprise et avons retenu celui ayant les meilleures performances en termes de précision et de temps de calcul.
 
+La performance est mesurée avec les métriques MAE et RMSE qui calculent l'écart entre la prédiction et la valeur réelle.
+
 Le tableau ci-dessous résume les scores des différents algorithmes testés :
 
 <p align="center">
