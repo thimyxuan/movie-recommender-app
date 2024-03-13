@@ -26,9 +26,9 @@ Notre moteur de recommandation de films s'appuie sur deux approches : le filtrag
 
 Nos données proviennent de deux sources principales : 
 
-1) L'API TMDB : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc. Volume des données disponibles : 998 000 films ;
+1) L'API TMDB : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc., avec un volume de données disponibles de 998 000 films ;
 
-2) La base de données MovieLens.org : pour les notes des utilisateurs. Volume des données disponibles : 25 millions de notes utilisateurs.
+2) La base de données MovieLens.org : pour les notes des utilisateurs, avec un volume de données disponibles de 25 millions de notes utilisateurs.
 
 ## Modèle hybride
 
@@ -99,9 +99,9 @@ Pour obtenir la recommandation finale, nous appliquons un calcul sur les résult
 
 ## Stack technique
 
-Nous utilisons **FastAPI** pour exécuter notre modèle de machine learning et récupérer les prédictions.
-L'interface utilisateur est réalisée avec la librairie **Streamlit**. 
-Enfin, notre application est *Dockerisée* et déployée avec **Heroku**.
+Nous utilisons FastAPI pour exécuter notre modèle de machine learning et récupérer les prédictions.
+L'interface utilisateur est réalisée avec la librairie Streamlit. 
+Enfin, notre application est *Dockerisée* et déployée avec Heroku.
 
 Voici un schéma de l'architecture de notre application :
 
@@ -109,9 +109,7 @@ Voici un schéma de l'architecture de notre application :
     <img src="img/schema_architecture.png" alt="Schéma architecture" width="700px">
 </p>
 
-<p align="right">
-    <i>Schéma réalisé par Clément B.</i>
-</p>
+<p align="center"><i>Schéma réalisé par Clément B.</i></p>
 
 <br>
 
