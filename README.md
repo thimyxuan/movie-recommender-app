@@ -93,6 +93,24 @@ Pour obtenir la recommandation finale, nous appliquons un calcul sur les résult
 
 <br>
 
+# Architecture
+
+## Stack technique
+
+Nous utilisons FastAPI pour exécuter notre modèle de machine learning et récupérer les prédictions.
+
+L'interface utilisateur est réalisée avec la librairie Streamlit. 
+
+Enfin, notre application est *Dockerisée* et déployée avec Heroku.
+
+Voici un schéma de l'architecture de notre application :
+
+<p align="center">
+    <img src="img/schema_architecture.png" alt="Schéma hybride" width="700px">
+</p>
+
+*Schéma réalisé par Clément B.*
+
 ---
 
 ## Clone
