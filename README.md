@@ -16,7 +16,7 @@ Utilisez des filtres avancés tels que mots-clés, genres, acteurs, réalisateur
 
 ## Schéma général
 
-Notre moteur de recommandation de films s'appuie sur deux approches : le filtrage collaboratif et le filtrage par contenu. Autrement dit, les recommandations sont effectuées à partir du calcul de similarité entre les films et entre les profils utilisateurs.
+Notre moteur de recommandation de films s'appuie sur deux approches : le filtrage par contenu et le filtrage collaboratif. Autrement dit, les recommandations sont effectuées à partir du calcul de similarité entre les films et entre les profils utilisateurs.
 
 <p align="center">
     <img src="img/schema.png" alt="Schéma fonctionnement MovieMatcher" width="700px">
@@ -25,8 +25,10 @@ Notre moteur de recommandation de films s'appuie sur deux approches : le filtrag
 ## Données
 
 Nos données proviennent de deux sources principales : 
-1) L'API TMDB : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc.
-2) La base de données MovieLens.org : pour les notes des utilisateurs.
+
+1) L'API TMDB : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc. Volume des données disponibles : 998 000 films ;
+
+2) La base de données MovieLens.org : pour les notes des utilisateurs. Volume des données disponibles : 25 millions de notes utilisateurs.
 
 ## Modèle hybride
 
@@ -107,7 +109,7 @@ Voici un schéma de l'architecture de notre application :
     <img src="img/schema_architecture.png" alt="Schéma architecture" width="700px">
 </p>
 
-<p align="center">
+<p align="right">
     <i>Schéma réalisé par Clément B.</i>
 </p>
 
