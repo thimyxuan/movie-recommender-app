@@ -107,7 +107,7 @@ Voici un schéma de l'architecture de notre application :
     <img src="img/schema_architecture.png" alt="Schéma architecture" width="700px">
 </p>
 
-<p align="right">*Schéma réalisé par Clément B.*</p>
+<p align="center"><i>Schéma réalisé par Clément B.</i></p>
 
 <br>
 
