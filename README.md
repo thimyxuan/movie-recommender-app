@@ -140,6 +140,7 @@ Les scripts sont utilisés pour générer les fichiers nécessaire au fonctionne
 
 3) `scripts/script_tmdb_content_based.py` : application du machine learning (matrice TF-IDF, similarité cosinus), puis création du fichier `fastapi/src/TMDB_content_based.csv`
 
----
+<br>
+<br>
 
-*Crédits : Ce projet est un travail de groupe réalisé en collaboration avec Clément B. et Yann S. dans le cadre de la formation Full-Stack Data Scientist de l'école Jedha.*
+**Crédits : Ce projet est un travail de groupe réalisé en collaboration avec Clément B. et Yann S. dans le cadre de la formation Full-Stack Data Scientist de l'école Jedha.*
