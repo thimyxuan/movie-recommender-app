@@ -26,9 +26,9 @@ Notre moteur de recommandation de films s'appuie sur deux approches : le filtrag
 
 Nos données proviennent de deux sources principales : 
 
-1) [L'API TMDB](`https://developer.themoviedb.org/reference/intro/getting-started`) : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc., avec un volume de données disponibles de 998 000 films ;
+1) [L'API TMDB](https://developer.themoviedb.org/reference/intro/getting-started) : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc., avec un volume de données disponibles de 998 000 films ;
 
-2) La base de données [MovieLens.org](`https://grouplens.org/datasets/movielens/`) : pour les notes des utilisateurs, avec un volume de données disponibles de 25 millions de notes utilisateurs.
+2) La base de données [MovieLens.org](https://grouplens.org/datasets/movielens/) : pour les notes des utilisateurs, avec un volume de données disponibles de 25 millions de notes utilisateurs.
 
 ## Modèle hybride
 
