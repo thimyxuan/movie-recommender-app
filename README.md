@@ -26,9 +26,9 @@ Notre moteur de recommandation de films s'appuie sur deux approches : le filtrag
 
 Nos données proviennent de deux sources principales : 
 
-1) L'API TMDB : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc., avec un volume de données disponibles de 998 000 films ;
+1) [L'API TMDB](`https://developer.themoviedb.org/reference/intro/getting-started`) : pour les informations sur le synopsis, les genres, le casting, le réalisateur, les mots-clés, etc., avec un volume de données disponibles de 998 000 films ;
 
-2) La base de données MovieLens.org : pour les notes des utilisateurs, avec un volume de données disponibles de 25 millions de notes utilisateurs.
+2) La base de données [MovieLens.org](`https://grouplens.org/datasets/movielens/`) : pour les notes des utilisateurs, avec un volume de données disponibles de 25 millions de notes utilisateurs.
 
 ## Modèle hybride
 
@@ -44,7 +44,7 @@ Pour réaliser le filtrage par contenu, nous avons utilisé les outils de la lib
 
 Pour réaliser le filtrage collaboratif, nous avons utilisé la librairie Surprise et l'algorithme SVD.
 
-## Comparatifs des algorithmes 
+## Comparatif des algorithmes
 
 Nous avons testé les différents algorithmes de la librairie Surprise et avons retenu celui ayant les meilleures performances en termes de précision et de temps de calcul.
 
